@@ -1,5 +1,5 @@
 {
-	"name": "suilven/homepage-landingpage",
+	"name": "suilven/homepage",
 	"description": "Adds a homepage and landing page for template override and additional functionality",
 	"type": "silverstripe-vendormodule",
 	"keywords": ["silverstripe", "homepage", "landingpage", "section"],
