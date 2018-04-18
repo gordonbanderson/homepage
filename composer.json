@@ -16,7 +16,8 @@
     },
 	"require":
 	{
-		"silverstripe/cms": "~4"
+		"silverstripe/cms": "~4",
+        "undefinedoffset/sortablegridfield": ""
 	},
 	"autoload": {
 		"psr-4": {
