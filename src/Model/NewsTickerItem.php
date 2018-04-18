@@ -13,7 +13,10 @@ use SilverStripe\ORM\DataObject;
 
 class NewsTickerItem extends DataObject
 {
-    private static $db=['Headline' => 'Text'];
+    private static $db=[
+        'Headline' => 'Text',
+        'SortOrder' => 'Int'
+    ];
 
     private static $table_name = 'NewsTickerItem';
 

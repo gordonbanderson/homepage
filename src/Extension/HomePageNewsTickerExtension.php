@@ -13,6 +13,7 @@ use SilverStripe\Forms\GridField\GridFieldConfig_RelationEditor;
 use SilverStripe\Forms\GridField\GridFieldDataColumns;
 use SilverStripe\Forms\GridField\GridFieldPaginator;
 use SilverStripe\ORM\DataExtension;
+use UndefinedOffset\SortableGridField\Forms\GridFieldSortableRows;
 
 class HomePageNewsTickerExtension extends DataExtension
 {
@@ -29,6 +30,9 @@ class HomePageNewsTickerExtension extends DataExtension
         $config = GridFieldConfig_RelationEditor::create();
 
         $config->getComponentByType(GridFieldPaginator::class)->setItemsPerPage(10);
+        // This fails, not sure why
+        // $config->addComponent(new GridFieldSortableRows('SortOrder'));
+
         $dataColumns = $config->getComponentByType(GridFieldDataColumns::class);
 
         $dataColumns->setDisplayFields([
