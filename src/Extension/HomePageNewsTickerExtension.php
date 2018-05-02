@@ -31,7 +31,7 @@ class HomePageNewsTickerExtension extends DataExtension
 
         $config->getComponentByType(GridFieldPaginator::class)->setItemsPerPage(10);
         // This fails, not sure why
-        // $config->addComponent(new GridFieldSortableRows('SortOrder'));
+        $config->addComponent(new GridFieldSortableRows('SortOrder'));
 
         $dataColumns = $config->getComponentByType(GridFieldDataColumns::class);
 
