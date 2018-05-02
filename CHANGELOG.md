@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.0.5](https://github.com/gordonbanderson/homepage/tree/1.0.5) (2018-05-02)
+[Full Changelog](https://github.com/gordonbanderson/homepage/compare/1.0.4...1.0.5)
+
 ## [1.0.4](https://github.com/gordonbanderson/homepage/tree/1.0.4) (2018-04-19)
 [Full Changelog](https://github.com/gordonbanderson/homepage/compare/1.0.3...1.0.4)
 
