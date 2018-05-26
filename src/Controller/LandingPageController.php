@@ -10,5 +10,8 @@ namespace Suilven\HomeLandingPage\Model;
 
 class LandingPageController extends \PageController
 {
-
+    public function IsLandingPage()
+    {
+        return true;
+    }
 }
