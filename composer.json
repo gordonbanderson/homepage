@@ -17,7 +17,8 @@
 	"require":
 	{
 		"silverstripe/cms": "~4",
-        "undefinedoffset/sortablegridfield": "^2"
+        "undefinedoffset/sortablegridfield": "^2",
+        "dnadesign/silverstripe-elemental": "^2.1"
 	},
 	"autoload": {
 		"psr-4": {
