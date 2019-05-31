@@ -11,5 +11,6 @@ namespace Suilven\HomeLandingPage\Model;
 
 class LandingPage extends \Page
 {
+    private static $table_name = 'LandingPage';
 
 }
